@@ -1,4 +1,15 @@
-$Dark-cyan: hsl(185, 75%, 39%); // primary1
+// colors
+$dark-cyan: hsl(185, 75%, 39%); // primary1
 $dark-blue: hsl(229, 23%, 23%); // primary2
-$Dark-grayish-blue: hsl(227, 10%, 46%); // primary3
-$Dark-gray: hsl(0, 0%, 59%); //Neutral
+$dark-grayish-blue: hsl(227, 10%, 46%); // primary3
+$dark-gray: hsl(0, 0%, 59%); //Neutral
+$attribution-color:  hsl(228, 45%, 44%);
+
+// fonts
+
+$font-main: 'Kumbh Sans', sans-serif;
+
+// breakpoints
+
+$small: 375px;
+$large: 1440px;

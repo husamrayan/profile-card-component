@@ -1,11 +1,22 @@
+/*--- Import font url ----------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
+/*--- General styles ----------------------------------------*/
 html {
-
+    box-sizing: border-box;
 }
-
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: $font-main;
     font-weight: 400;
     font-size: 1rem;
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    a {
+        color:$attribution-color;
+    }
 }
