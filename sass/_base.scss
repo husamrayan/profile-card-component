@@ -1,7 +1,7 @@
-/*--- Import font url ----------------------------------------*/
+/*--- Import font ---*/
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
-/*--- General styles ----------------------------------------*/
+/*--- General styles -----------------------------------------------------------*/
 html {
     box-sizing: border-box;
 }
@@ -11,12 +11,33 @@ html {
 body {
     font-family: $font-main;
     font-weight: $font-normal;
-    font-size: 1rem;
+    font-size: 16px;
+    background-color: $dark-cyan;
+    margin: 0;
+    
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -517px left -298px, top 376px left 692px;
+}
+h4 {
+    margin: 0;
+}
+p {
+    margin:0;
 }
 .attribution {
     font-size: 11px; 
     text-align: center;
+    margin-top: 20px;
     a {
-        color:$attribution-color;
+        color: $attribution-color;
     }
 }
