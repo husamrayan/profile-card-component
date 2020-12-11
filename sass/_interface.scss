@@ -22,7 +22,7 @@
         height: 96px;
 
         img {
-            border: 5px solid #fff;
+            border: 5px solid $color-white;
             border-radius: 50%;
         }
      }
@@ -34,11 +34,11 @@
         margin-bottom: 27px;
      }
     .card-stats {
-        border-top: 1px solid #E7E7E7;
+        border-top: 1px solid $dark-text-gray2;
         text-align: center;
-        height: 89px;
+        // height: 89px;
         padding-top: 27px;
-        // padding-bottom: 27px;
+        padding-bottom: 27px;
         align-self: stretch;
      }
 }
@@ -50,9 +50,10 @@
         
         .stats {
             font-size: 18px;
+            margin-bottom:10px;
         }
         .stats-caption {
-            font-size: 12px;
+            font-size: 10px;
         }
 
     } 
