@@ -56,7 +56,7 @@ p {
   margin-bottom: 18px;
   height: 96px; }
   .card-body .profile-image img {
-    border: 5px solid #fff;
+    border: 5px solid white;
     border-radius: 50%; }
 .card-body .name {
   font-size: 18px;
@@ -64,10 +64,10 @@ p {
 .card-body .location {
   margin-bottom: 27px; }
 .card-body .card-stats {
-  border-top: 1px solid #E7E7E7;
+  border-top: 1px solid #6a6f81;
   text-align: center;
-  height: 89px;
   padding-top: 27px;
+  padding-bottom: 27px;
   align-self: stretch; }
 
 .card-stats .stats-content {
@@ -75,8 +75,9 @@ p {
   flex-direction: row;
   justify-content: space-evenly; }
   .card-stats .stats-content .stats {
-    font-size: 18px; }
+    font-size: 18px;
+    margin-bottom: 10px; }
   .card-stats .stats-content .stats-caption {
-    font-size: 12px; }
+    font-size: 10px; }
 
 /*# sourceMappingURL=style.css.map */
