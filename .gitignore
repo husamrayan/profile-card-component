@@ -18,3 +18,6 @@
 
 # Avoid sass cache!
 .sass-cache
+
+# Avoid dart-sass folder!
+/dart-sass
