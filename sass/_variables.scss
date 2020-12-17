@@ -1,18 +1,22 @@
+// variables
 // colors
 $color-primary: hsl(185, 75%, 39%); // dark-cyan
-$color-text-dark: hsl(229, 23%, 23%); // dark-blue
-$dark-text-gray2: hsl(227, 10%, 46%); // dark-grayish-blue
+$color-text-dark: hsl(229, 23%, 23%, 0.93); // dark-blue
+$color-text-gray2: hsl(227, 10%, 46%, 0.83); // dark-grayish-blue
 $color-text-gray: hsl(0, 0%, 59%); // Dark gray
-$color-white:  hsl(0, 0%, 100%); // Whiye
+$divider-color: hsl(0, 0, 89%);
+$color-white:  hsl(0, 0%, 100%); // White
 $attribution-color:  hsl(228, 45%, 44%);
 
 // fonts
 
 $font-main: 'Kumbh Sans', sans-serif;
-$font-bold: 700;
+$font-light: 300;
 $font-normal: 400;
+$font-bold: 700;
 
 // breakpoints
 
-$small: 375px;
-$large: 1440px;
+
+$breakpoint-small: 375px;
+$breakpoint-large: 1280px;

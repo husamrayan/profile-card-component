@@ -1,25 +1,30 @@
-/*--- Interface styles -----------------------------------------------------------*/
+//  interface.scss
+
 .card-box{
     width: 350px;
     // height: 377px;
-    background-color: #fff;
+    background-color: $color-white;
     border-radius: 15px;
     background-image: url(../images/bg-pattern-card.svg);
     background-repeat: no-repeat;
+    background-position: top center;
+    box-shadow: 0px 45px 70px hsl(229, 23%, 23%, 0.3);
     
     .card-body{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        height: 377px;
+        height: 374px;
     }
     
 }
 .card-body {
     .profile-image {
-        margin-bottom: 18px;
-        height: 96px;
+        margin-bottom: 25px;
+        height: 106px;
+        width: 106px;
+        
 
         img {
             border: 5px solid $color-white;
@@ -27,18 +32,24 @@
         }
      }
      .name {
-         font-size: 18px;
-         margin-bottom: 17px;
+        font-size: 18px;
+        padding-bottom: 14px;
+     }
+     .name span {
+        font-weight: $font-light;
+        color: $color-text-gray2;
      }
      .location {
-        margin-bottom: 27px;
+        padding-bottom: 25px;
+        color: $color-text-gray2;
      }
+    
     .card-stats {
-        border-top: 1px solid $dark-text-gray2;
+        border-top: 1px solid $divider-color;
         text-align: center;
         // height: 89px;
-        padding-top: 27px;
-        padding-bottom: 27px;
+        padding-top: 30px;
+        padding-bottom: 22px;
         align-self: stretch;
      }
 }
@@ -46,14 +57,17 @@
     .stats-content{
         display: flex;
         flex-direction: row;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
         
         .stats {
             font-size: 18px;
-            margin-bottom:10px;
+            padding-bottom:8px;
+            font-weight: $font-bold;
         }
         .stats-caption {
-            font-size: 10px;
+            font-size: 9px;
+            color: $color-text-gray2;
+            letter-spacing: 2px;
         }
 
     } 
