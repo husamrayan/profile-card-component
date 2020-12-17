@@ -1,0 +1,27 @@
+
+@media (max-width: 375px) {
+    .card-box{
+        width:325px;
+    }
+    main::before {
+        width: 56%;
+        height: 35%;
+        right: 44%;
+        // top: 0;
+        background-image: url(../images/bg-pattern-top.svg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 250%;
+        
+    }
+    main::after {
+        width: 56.5%;
+        height: 46.7%;
+        // bottom: 0;
+        left: 43.5%;
+        background-image: url(../images/bg-pattern-bottom.svg);
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: 300%;
+    }
+}
