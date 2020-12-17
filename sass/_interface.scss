@@ -31,11 +31,18 @@
      .name {
         font-size: 18px;
         padding-bottom: 14px;
+        
+        h4 {
+            display: inline-block;
+         }
+         
+        .age {
+            font-weight: $font-light;
+            color: $color-text-gray2;
+            margin-left: 11px;
+        }
      }
-     .name span {
-        font-weight: $font-light;
-        color: $color-text-gray2;
-     }
+     
      .location {
         padding-bottom: 25px;
         color: $color-text-gray2;
