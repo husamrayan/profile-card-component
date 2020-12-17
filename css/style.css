@@ -112,7 +112,7 @@ p {
 .card-body .name .age {
   font-weight: 300;
   color: rgba(106, 111, 129, 0.83);
-  margin-left: 11px;
+  margin-left: 8px;
 }
 .card-body .location {
   padding-bottom: 25px;
