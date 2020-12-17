@@ -106,9 +106,13 @@ p {
   font-size: 18px;
   padding-bottom: 14px;
 }
-.card-body .name span {
+.card-body .name h4 {
+  display: inline-block;
+}
+.card-body .name .age {
   font-weight: 300;
   color: rgba(106, 111, 129, 0.83);
+  margin-left: 11px;
 }
 .card-body .location {
   padding-bottom: 25px;
