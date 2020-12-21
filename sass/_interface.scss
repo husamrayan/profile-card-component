@@ -1,7 +1,8 @@
 //  interface.scss
 
 .card-box{
-    width: 350px;
+    width:100%;
+    min-width: 350px;
     background-color: $color-white;
     border-radius: 15px;
     background-image: url(../images/bg-pattern-card.svg);
@@ -15,6 +16,7 @@
         justify-content: flex-end;
         align-items: center;
         height: 374px;
+        
     }
 }
 .card-body {
