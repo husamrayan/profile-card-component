@@ -144,7 +144,7 @@ p {
 
 @media (max-width: 375px) {
   .card-box {
-    width: 325px;
+    width: 324px;
   }
 
   main::before {
