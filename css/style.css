@@ -142,7 +142,7 @@ p {
   letter-spacing: 2px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 374.98px) {
   .card-box {
     width: 325px;
   }
